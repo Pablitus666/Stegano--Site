@@ -15,13 +15,12 @@
   <meta property="og:description"
         content="Aplicación avanzada de esteganografía con cifrado fuerte, protección contra análisis forense y arquitectura profesional." />
 
-  <!-- IMPORTANTE: cambiar cuando Netlify te dé la URL -->
-  <meta property="og:url" content="https://TU-SITIO.netlify.app/" />
+  <meta property="og:url" content="https://stegano-site.netlify.app/" />
 
   <meta property="og:image"
-        content="https://TU-SITIO.netlify.app/assets/og.png" />
+        content="https://stegano-site.netlify.app/assets/og.png" />
   <meta property="og:image:secure_url"
-        content="https://TU-SITIO.netlify.app/assets/og.png" />
+        content="https://stegano-site.netlify.app/assets/og.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="2400" />
   <meta property="og:image:height" content="1260" />
@@ -32,7 +31,7 @@
   <meta name="twitter:description"
         content="Herramienta avanzada de esteganografía con cifrado robusto y protección contra análisis estadístico." />
   <meta name="twitter:image"
-        content="https://TU-SITIO.netlify.app/assets/og.png" />
+        content="https://stegano-site.netlify.app/assets/og.png" />
 
   <style>
     html, body {
@@ -50,15 +49,14 @@
   </style>
 
   <script>
-    // Redirige SOLO si no es bot
-    if (!/bot|crawler|spider|crawling|whatsapp|telegram/i.test(navigator.userAgent)) {
+    // Redirige SOLO si no es bot conocido
+    if (!/bot|crawler|spider|crawling|whatsapp|telegram|facebookexternalhit|Slackbot/i.test(navigator.userAgent)) {
       window.location.replace("https://github.com/Pablitus666/Stegano");
     }
   </script>
 </head>
 
 <body>
-  <!-- Contenido real para evitar descarte de WhatsApp -->
   <div class="hidden-content">
     <h1>Stegano</h1>
     <p>Herramienta profesional de esteganografía con cifrado AES-256.</p>
