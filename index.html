@@ -3,56 +3,60 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>🔐 Stegano - Esteganografía Profesional</title>
   <meta name="description"
-    content="Herramienta profesional de esteganografía con cifrado robusto, protección contra análisis estadístico LSB y arquitectura segura." />
+    content="Aplicación avanzada de esteganografía con cifrado fuerte y protección contra análisis forense." />
 
-  <!-- ============================= -->
-  <!-- Open Graph (WhatsApp / Facebook / Telegram) -->
-  <!-- ============================= -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Stegano" />
-  <meta property="og:title" content="🔐 Stegano - Herramienta Profesional de Esteganografía" />
+  <meta property="og:title"
+    content="🔐 Stegano - Herramienta Profesional de Esteganografía" />
   <meta property="og:description"
     content="Aplicación avanzada de esteganografía con cifrado fuerte, protección contra análisis forense y arquitectura profesional." />
-  <meta property="og:url" content="https://pablitus666.github.io/Stegano--Site/" />
-
-  <!-- IMPORTANTE: esta imagen debe existir exactamente en esta ruta -->
+  <meta property="og:url"
+    content="https://pablitus666.github.io/Stegano--Site/" />
   <meta property="og:image"
     content="https://pablitus666.github.io/Stegano--Site/assets/og.png" />
-  <meta property="og:image:secure_url"
-    content="https://pablitus666.github.io/Stegano--Site/assets/og.png" />
-  <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="2400" />
   <meta property="og:image:height" content="1260" />
-  <meta property="og:image:alt"
-    content="Stegano - Herramienta Profesional de Esteganografía" />
+  <meta property="og:image:type" content="image/png" />
 
-  <!-- ============================= -->
-  <!-- Twitter Card -->
-  <!-- ============================= -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="🔐 Stegano - Esteganografía Profesional" />
-  <meta name="twitter:description"
-    content="Herramienta avanzada de esteganografía con cifrado robusto y protección contra análisis estadístico." />
-  <meta name="twitter:image"
-    content="https://pablitus666.github.io/Stegano--Site/assets/og.png" />
 
-  <!-- ============================= -->
-  <!-- Redirección SOLO para humanos -->
-  <!-- Bots no ejecutan JavaScript -->
-  <!-- ============================= -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+    }
+
+    /* Contenido invisible pero existente */
+    .hidden-content {
+      position: absolute;
+      left: -9999px;
+      top: -9999px;
+    }
+  </style>
+
   <script>
-    window.location.replace("https://github.com/Pablitus666/Stegano");
+    // Pequeño delay para permitir parsing de bots
+    setTimeout(function () {
+      window.location.replace("https://github.com/Pablitus666/Stegano");
+    }, 200);
   </script>
 
 </head>
 
 <body>
-  <!-- Página intencionalmente vacía -->
+
+  <!-- Contenido requerido para que WhatsApp no descarte la página -->
+  <div class="hidden-content">
+    <h1>Stegano</h1>
+    <p>Herramienta profesional de esteganografía con cifrado AES-256.</p>
+  </div>
+
 </body>
 
 </html>
